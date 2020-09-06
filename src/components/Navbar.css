@@ -1,0 +1,12 @@
+.btn-space {
+    margin-right: 5px;
+}
+.navbar-manu {
+    margin-left: 259%;
+    font-size: 128%;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+    margin-left: 47%;
+}
