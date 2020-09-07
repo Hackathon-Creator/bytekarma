@@ -14,7 +14,7 @@ export default class Routes extends Component {
         return (
             <Router history={history}>
                 <Switch>
-                    <Route path="/" exact component={PieChart} />
+                    <Route path="/Home" exact component={PieChart} />
                     <Route path="/MasterSearch" component={MasterSearch} />
                     <Route path="/DataUpload" component={DataUpload} />
                     <Route path="/PrivacyPolicy" component={PrivacyPolicy} />

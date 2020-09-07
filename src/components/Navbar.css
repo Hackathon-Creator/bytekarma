@@ -10,3 +10,16 @@
     margin-right: auto !important;
     margin-left: 47%;
 }
+.navbar {
+    
+    background-color: #e20a0a;
+
+}
+.navbarmanu {
+    
+    color: white;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}

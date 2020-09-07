@@ -9,3 +9,13 @@
 .App .container{
   align-content: center
 }
+.fileupload
+   { margin-left: 25%;
+    padding: 7%;
+  
+   }
+   .filedesc{
+     
+    padding: 10%;
+
+   }
