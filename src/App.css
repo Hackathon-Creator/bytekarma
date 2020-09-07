@@ -19,3 +19,28 @@
     padding: 10%;
 
    }
+
+   .bgstyle{
+    background-image: url("./images/Hsbc_Image_edit.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    }
+    
+    .form-container{
+    color:#fff;
+    border:0px solid #fff;
+    padding: 50px 60px;
+    margin-top: 20vh;
+    /* margin-left: 10vh; */
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    }
+
+    .privacyimage{
+      background-image: url("./images/policy.jpg");
+   
+      background-repeat: no-repeat;
+      margin-top:9%;
+      
+      }

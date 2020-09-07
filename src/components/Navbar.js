@@ -7,15 +7,18 @@ const Navigation = (props) => {
     console.log(props);
     return (
         <Navbar classNam="navbar">
-            <Navbar className="navbarmanu" href="#home">Tracking Customer at Risk of Negative Spending</Navbar>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar className="navbarmanu nav1" href="#home"><i class="fas fa-user-minus">Tracking Customer at Risk of Negative Spending</i></Navbar>
+            
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                   <Navbar><Nav.Link className="navbarmanu" href="/Home">Home</Nav.Link></Navbar> 
-                   <Navbar>   <Nav.Link className="navbarmanu" href="/MasterSearch">Master Search</Nav.Link></Navbar> 
-                   <Navbar>     <Nav.Link className="navbarmanu" href="/DataUpload">Data Upload</Nav.Link></Navbar> 
-                   <Navbar>      <Nav.Link className="navbarmanu" href="/PrivacyPolicy">Privacy Policy</Nav.Link></Navbar> 
-                   <Navbar>   <Nav.Link className="navbarmanu" href="/Help">Help</Nav.Link></Navbar> 
+                <Nav >
+                   <Navbar><Nav.Link className="navbarmanu" href="/Home"><i class="fas fa-home">Home</i></Nav.Link></Navbar> 
+                   <Navbar>   <Nav.Link className="navbarmanu" href="/MasterSearch"><i class="fas fa-search">Master Search</i></Nav.Link></Navbar> 
+                   <Navbar>     <Nav.Link className="navbarmanu" href="/DataUpload"><i class="fas fa-cloud-upload-alt">Data Upload</i></Nav.Link></Navbar> 
+                   <Navbar>      <Nav.Link className="navbarmanu" href="/PrivacyPolicy"><i class="fas fa-user-secret">Privacy Policy</i></Nav.Link></Navbar> 
+                  
+                   <Navbar>   <Nav.Link className="navbarmanu" href="/Help"><i class="fas fa-hands-helping">Help</i></Nav.Link></Navbar> 
+                   <Navbar>      <Nav.Link className="navbarmanu" href="/"><i class="fas fa-sign-out-alt">Logout</i></Nav.Link></Navbar> 
+ 
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

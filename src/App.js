@@ -39,7 +39,7 @@ const DefaultContainer = () => (
 )
 
 const LoginContainer = () => (
-  <div className="container">
+  <div>
     <Route exact path="/" render={() => <Redirect to="/login" /> } component={Login} />
     <Route path="/login" component={Login} />
   </div>
