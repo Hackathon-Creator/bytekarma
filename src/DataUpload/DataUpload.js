@@ -61,7 +61,7 @@ class DataUpload extends Component {
             return ( 
             <div> 
                 <br /> 
-                <h4>Choose before Pressing the Upload button</h4> 
+                <h6>Choose before Pressing the Upload button</h6> 
             </div> 
             ); 
         } 
