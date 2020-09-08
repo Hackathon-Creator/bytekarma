@@ -4,9 +4,9 @@ import { Card, ListGroup } from 'react-bootstrap';
 class PrivacyPolicy extends Component {
     render() {
         return (
-            <div>
+            <div className="container">
                  <div class="row">
-  <div class="col-sm-8 filedesc">
+  <div class="col-sm-6 filedesc">
  <h3>Privacy policy</h3> 
 
 <p>As a part of your monitoring the nagative spents,
@@ -16,7 +16,7 @@ in internally to out team.</p>
 GDRP Data declaration during the Onboarding form.
   </p>
   </div>
-  <div class="col-sm-4 privacyimage">
+  <div class="col-sm-5 privacyimage">
  
   </div>
             </div>

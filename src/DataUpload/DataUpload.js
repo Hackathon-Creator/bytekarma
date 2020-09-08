@@ -70,13 +70,17 @@ class DataUpload extends Component {
         render() { 
         
             return ( 
-                <div>
-                <div class="row">
-  <div class="col-sm-4 filedesc">File Desc
-  
+                <div className="container">
+                <div class="row filedesc">
+  <div class="col-sm-5 ">
+      <p>This file holds the data for Customer set that will he used to calculate the Spending pattern. We will also use this to derive the Probability of default and predict the gambling probability value for future.
+</p>
+<br>
+</br>  
+<p><strong>NOTE:</strong> This feature is only to present the solution for Hackathon. In real time, we will be using the endpoints from the Bank's database to do calculations and improve the model.</p>
   <i class="fa fa-upload" aria-hidden="true"></i>
   </div>
-  <div class="col-sm-8">
+  <div class="col-sm-7">
   <div className="fileupload"> 
                     
                     <h3> 
@@ -84,7 +88,7 @@ class DataUpload extends Component {
                     </h3> 
                     <div className="image-upload" > 
                         <input type="file"  onChange={this.onFileChange} /> 
-                        <button className="btn btn-success" onClick={this.onFileUpload}> 
+                        <button className="btn btn-danger" onClick={this.onFileUpload}> 
                           Upload! 
                         </button> 
                     </div> 

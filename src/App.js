@@ -22,6 +22,7 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
+import Footer from './components/Footer';
 
 const DefaultContainer = () => (
   <div>
@@ -45,9 +46,7 @@ const LoginContainer = () => (
   </div>
 )
 function App() {
-  console.log(window.location.protocol);
-  console.log(window.location.pathname);
-  console.log(window.location.hostname);
+
 
   if(window.location.pathname == "/"){
     return (
@@ -88,6 +87,7 @@ function App() {
        
       </Navigation>
       <Routes></Routes>
+      <Footer></Footer>
     </div>
     </Switch>
   </BrowserRouter>
