@@ -120,7 +120,7 @@ export default class Login extends Component {
          </div>
          </MuiThemeProvider>
          {!this.state.authorized  &&  <div class="alert alert-danger" role="alert">
-  Invalid credentials! Please enter correct username and password.
+         <i class="fas fa-user">Invalid credentials! Please enter correct username and password.</i> 
 </div>} 
         
           </form>
